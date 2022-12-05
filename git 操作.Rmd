@@ -2,7 +2,17 @@
 title: "git 操作"
 author: "wangqi"
 date: "2022-12-05"
-output: pdf_document
+documentclass: ctexart
+header-includes:
+  - \usepackage{float}
+  - \usepackage{setspace}
+output:
+  #bookdown::word_document2:
+  bookdown::pdf_document2:
+    latex_engine: xelatex
+    toc: false
+    number_sections: no
+indent: true    
 ---
 
 ```{r setup, include=FALSE}
@@ -13,6 +23,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](/Users/qiqi/Desktop/原理.png)
 ![](/Users/qiqi/Desktop/stage.png)
+##如何push 最新的更改到github
+
+勾选staged——>commit——>commit message ——>查看更改内容(绿色为添加，红色为删除)——>commit——push
+
+##
 ```{r cars}
 summary(cars)
 ```
