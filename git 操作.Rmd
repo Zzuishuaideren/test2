@@ -23,14 +23,25 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ![](/Users/qiqi/Desktop/原理.png)
 ![](/Users/qiqi/Desktop/stage.png)
-##如何push 最新的更改到github
+## 如何push 最新的更改到github
 
 勾选staged——>commit——>commit message ——>查看更改内容(绿色为添加，红色为删除)——>commit——push
 
-##
-```{r cars}
-summary(cars)
-```
+## 查看提交历史
+1.在RStudio中查看提交历史记录，请单击Git窗格中的“历史记录”按钮
+
+2.可以在GitHub网站上查看提交历史记录
+
+## 恢复更改
+
+1.已保存对文件的更改，但尚stage、commit或将这些文件push到GitHub
+
+ (1)Diff”窗口  (2)revert
+ 
+2.已经stage，但是没有commit
+3.已经stage和commit,但是没有push
+
+
 
 ## Including Plots
 
