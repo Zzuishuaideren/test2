@@ -1,0 +1,28 @@
+---
+title: "git 操作"
+author: "wangqi"
+date: "2022-12-05"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## git 使用原理
+
+![](/Users/qiqi/Desktop/原理.png)
+![](/Users/qiqi/Desktop/stage.png)
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
